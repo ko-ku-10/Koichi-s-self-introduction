@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        :root { --bg: #0f172a; --card: #1e293b; --accent: #38bdf8; --text: #f8fafc; }
+        body { font-family: sans-serif; background: var(--bg); color: var(--text); padding: 40px 20px; line-height: 1.6; }
+        .container { max-width: 500px; margin: auto; }
+        h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 10px; }
+        .skills { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
+        .skill-tag { background: rgba(56,189,248,0.1); border: 1px solid var(--accent); color: var(--accent); padding: 4px 12px; border-radius: 20px; font-size: 0.9rem; }
+        .back-btn { display: inline-block; margin-top: 30px; color: var(--accent); text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <p>春から高専の〇〇科に進学します。新しいことに挑戦するのが大好きです！</p>
+        
+        <h3>Skill / Interests</h3>
+        <div class="skills">
+            <span class="skill-tag">HTML/CSS</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">自作PC</span>
+            <span class="skill-tag">ゲーム</span>
+            <span class="skill-tag">数学</span>
+        </div>
+
+        <h3>Goals</h3>
+        <p>1年生のうちにプログラミングで何かアプリを作ってみたいと思っています。</p>
+
+        <a href="index.html" class="back-btn">← 戻る</a>
+    </div>
+</body>
+</html>
