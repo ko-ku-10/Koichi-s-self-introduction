@@ -3,33 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>About Koichi</title>
     <style>
-        :root { --bg: #0f172a; --card: #1e293b; --accent: #38bdf8; --text: #f8fafc; }
-        body { font-family: sans-serif; background: var(--bg); color: var(--text); padding: 40px 20px; line-height: 1.6; }
+        :root { --bg: #0f172a; --card: #1e293b; --accent: #38bdf8; --text: #f8fafc; --gray: #94a3b8; }
+        body { font-family: sans-serif; background: var(--bg); color: var(--text); padding: 40px 20px; line-height: 1.7; }
         .container { max-width: 500px; margin: auto; }
-        h1 { color: var(--accent); border-bottom: 2px solid var(--accent); padding-bottom: 10px; }
-        .skills { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0; }
-        .skill-tag { background: rgba(56,189,248,0.1); border: 1px solid var(--accent); color: var(--accent); padding: 4px 12px; border-radius: 20px; font-size: 0.9rem; }
-        .back-btn { display: inline-block; margin-top: 30px; color: var(--accent); text-decoration: none; font-weight: bold; }
+        h1 { color: var(--accent); font-size: 1.8rem; border-left: 5px solid var(--accent); padding-left: 15px; margin-bottom: 30px; }
+        h2 { font-size: 1.1rem; color: var(--accent); margin: 0 0 10px 0; display: flex; align-items: center; gap: 8px; }
+        .section { background: var(--card); padding: 20px; border-radius: 16px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.05); }
+        .tag-container { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+        .tag { background: rgba(56,189,248,0.1); border: 1px solid var(--accent); color: var(--accent); padding: 2px 10px; border-radius: 6px; font-size: 0.75rem; }
+        .back-btn { display: inline-block; margin-top: 20px; color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+        ul { padding-left: 18px; margin: 0; font-size: 0.9rem; }
+        li { margin-bottom: 8px; }
+        .highlight { color: var(--accent); font-weight: bold; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>About Me</h1>
-        <p>春から高専の〇〇科に進学します。新しいことに挑戦するのが大好きです！</p>
         
-        <h3>Skill / Interests</h3>
-        <div class="skills">
-            <span class="skill-tag">HTML/CSS</span>
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">自作PC</span>
-            <span class="skill-tag">ゲーム</span>
-            <span class="skill-tag">数学</span>
+        <div class="section">
+            <h2>👤 Profile</h2>
+            <ul>
+                <li><strong>熊谷 航一</strong>（くまがい こういち）</li>
+                <li>島根県益田市 <strong>高津中</strong> 出身（元生徒会長）</li>
+                <li>「こういち」か「くまさん」って呼んでください！</li>
+            </ul>
         </div>
 
-        <h3>Goals</h3>
-        <p>1年生のうちにプログラミングで何かアプリを作ってみたいと思っています。</p>
+        <div class="section">
+            <h2>🎧 Favorites</h2>
+            <ul>
+                <li><strong>Music:</strong> ヨルシカ / Mrs. GREEN APPLE  / Charlie Puth / Ed Sheeran</li>
+                <li><strong>Gadget:</strong> <strong>Android派</strong>。イヤホンが大好きです。</li>
+                <li><strong>Stationery:</strong> シャーペンは <strong>S20 / オレンズネロ / スマッシュ</strong> を愛用中。</li>
+                <li><strong>Food:</strong> 焼きそばが大好き。トマトは天敵。</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>💡 Challenges & Real</h2>
+            <ul>
+                <li>プログラミングや動画編集に挑戦したけど、絶賛挫折中。高専でリベンジしたい！</li>
+                <li><strong>実は数学が少し苦手です…</strong> 教えてくれる友達募集中。</li>
+                <li>部活は迷い中。松江のことも知りたいので、色んな所に連れてってください！</li>
+            </ul>
+        </div>
+
+        <div class="section" style="border: 1px dashed var(--accent);">
+            <h2>🔥 Big Goal</h2>
+            <p style="margin:0; text-align:center;"><strong>「5年間、絶対に留年せずに駆け抜ける！！」</strong></p>
+        </div>
+
+        <p style="font-size: 0.85rem; color: var(--gray); text-align: center; margin-top: 30px;">
+            最後まで読んでくれてありがとう！<br>
+            共通点があったら、LINEや対面で気軽に話しかけてくれると嬉しいです
+        </p>
 
         <a href="index.html" class="back-btn">← 戻る</a>
     </div>
